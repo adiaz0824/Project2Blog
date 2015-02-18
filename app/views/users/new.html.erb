@@ -1,0 +1,26 @@
+<h1>Sign up</h1>
+<%= form_for @user do |f| %>
+	Email: <%= f.text_field :email %><br />
+	Password: <%= f.password_field :password %><br />
+	Password Confirmation: <%= f.password_field :password_confirmation %><br />
+	
+	<%= f.file_field :avatar %>	<br>
+
+	<%= f.submit %>
+
+
+<% end %>
+
+
+
+
+
+
+<!-- ==========================================
+In order to preview an image
+========================================== -->
+<!-- <form>
+  <input type="file" id="pictureInput"> 
+</form>
+<div id="target">
+</div> -->

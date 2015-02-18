@@ -1,0 +1,7 @@
+<h1>Blog Posts</h1>
+
+<% @posts.each do |p| %>
+	Title: <%= p.title %><br />
+	Text: <%= p.post_text %><br />
+	<hr />
+<% end %>
