@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+.navbar {
+	background-color: yellow;
+	
+	width: 500px;
+}
+
+#button1 {
+	background-color: blue;
+	width: 100px;
+	display: inline-block;
+}
+
+#button2 {
+	background-color: blue;
+	width: 100px;
+	display: inline-block;
+}
